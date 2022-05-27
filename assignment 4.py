@@ -24,7 +24,7 @@ while True:
 print('Q2')
 year = int(input('Enter year:'))
 if year % 4 == 0:
-    if year % 100 == 0:
+    if year % 400 == 0:
         print("Leap year")
     else:
         print("Not a leap year")
@@ -47,3 +47,39 @@ print('Q4')
 for i in range(200):
     if i % 5 == 2 and i % 6 == 3 and i % 7 == 2:
         print("Answer:",i)
+        
+        
+#--------------------------#
+#Output for assignment-4
+'''
+Q1
+Enter mark:70
+Grade: B
+Continue?(y/n)n
+Q2
+Enter year:2004
+Not a leap year
+Q3
+Question 1:3x7=21
+Right!
+Question 2:4x1=4
+Right!
+Question 3:7x5=45
+Wrong. The correct answer is 35
+Question 4:5x9=45
+Right!
+Question 5:1x3=3
+Right!
+Question 6:5x0=0
+Right!
+Question 7:3x4=12
+Right!
+Question 8:4x3=12
+Right!
+Question 9:0x7=0 
+Right!
+Question 10:5x6=30
+Right!
+Q4
+Answer: 177
+'''
