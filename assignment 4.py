@@ -21,15 +21,14 @@ while True:
     if user == 'n':
         break
         
-print('Q2')
-year = int(input('Enter year:'))
-if year % 4 == 0:
-    if year % 400 == 0:
-        print("Leap year")
-    else:
-        print("Not a leap year")
+print("Q2")
+a=int(input("Enter the year: "))
+if a%400 == 0:
+    print(a, "is a leap year.")
+elif a%4 == 0:
+    print(a, "is a leap year.")
 else:
-    print("Not a leap year")
+    print(a, "is not a leap year.")
 
 print('Q3')
 import random
@@ -57,8 +56,8 @@ Enter mark:70
 Grade: B
 Continue?(y/n)n
 Q2
-Enter year:2004
-Not a leap year
+Enter the year: 2004
+2004 is a leap year.
 Q3
 Question 1:3x7=21
 Right!
